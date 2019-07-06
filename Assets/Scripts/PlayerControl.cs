@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     // Public Variables
-    public float characterRunSpeed;
+    public float runSpeed;
 
     // Private Variables
     private float moveInput;
@@ -25,7 +25,7 @@ public class PlayerControl : MonoBehaviour
     // Actions
     void Movement()
     {
-        moveInput = Input.GetAxisRaw("Horizontal") * characterRunSpeed;
+        moveInput = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
     }
