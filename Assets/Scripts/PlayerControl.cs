@@ -17,11 +17,13 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D charBody;
     private bool facingRight = true;
     private bool doubleJumped;
+    private Animator anim;
 
     // Base Functions
     void Awake()
     {
         charBody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         doubleJumped = false;
     }
 
@@ -35,6 +37,8 @@ public class PlayerControl : MonoBehaviour
     void Movement()
     {
         moveInput = Input.GetAxis("Horizontal") * runSpeed;
+
+        anim.SetFloat("Speed", Mathf.Abs(moveInput));
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
 
