@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     // Public Variables
-    public float runSpeed, jumpPower, jumpHeight;
+    public float runSpeed, jumpPower;
+    [Range(0, 1)]
+    public float jumpBoost;
     public Vector3 jumpTouch;
     public Transform groundChecker;
     public LayerMask groundLayer;
@@ -14,11 +16,13 @@ public class PlayerControl : MonoBehaviour
     private float moveInput;
     private Rigidbody2D charBody;
     private bool facingRight = true;
+    private bool doubleJumped;
 
     // Base Functions
     void Awake()
     {
         charBody = GetComponent<Rigidbody2D>();
+        doubleJumped = false;
     }
 
     void Update()
@@ -30,9 +34,19 @@ public class PlayerControl : MonoBehaviour
     // Defines Player Movement
     void Movement()
     {
-        moveInput = Input.GetAxisRaw("Horizontal") * runSpeed;
+        moveInput = Input.GetAxis("Horizontal") * runSpeed;
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
+
+        if (Input.GetKeyDown(KeyCode.Space) && doubleJumped == false)
+        {
+            if (charBody.velocity.y > 0)
+            {
+                charBody.velocity = new Vector2(charBody.velocity.x, (jumpPower * jumpBoost) + jumpPower);
+                print("Double Jumped");
+                doubleJumped = true;
+            }
+        }
 
         if (moveInput > 0 && !facingRight || moveInput < 0 && facingRight)
         {
@@ -47,6 +61,7 @@ public class PlayerControl : MonoBehaviour
 
         if (charTouchGround != null)
         {
+            doubleJumped = false;
             if (charTouchGround.gameObject.tag == "Ground" && Input.GetKeyDown(KeyCode.Space))
             {
                 charBody.velocity = new Vector2(charBody.velocity.x, jumpPower);
