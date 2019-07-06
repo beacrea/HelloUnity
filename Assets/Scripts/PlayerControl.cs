@@ -5,7 +5,10 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     // Public Variables
-    public float runSpeed;
+    public float runSpeed, jumpPower, jumpHeight;
+    public Vector3 jumpTouch;
+    public Transform groundChecker;
+    public LayerMask groundLayer;
 
     // Private Variables
     private float moveInput;
@@ -18,9 +21,10 @@ public class PlayerControl : MonoBehaviour
         charBody = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         Movement();
+        groundDetectJump();
     }
 
     // Defines Player Movement
@@ -30,8 +34,30 @@ public class PlayerControl : MonoBehaviour
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
 
-        if (moveInput > 0 && !facingRight ||  moveInput < 0 && facingRight)
+        if (moveInput > 0 && !facingRight || moveInput < 0 && facingRight)
+        {
             CharacterFlip();
+        }
+    }
+
+    // Check Jump
+    void groundDetectJump()
+    {
+        Collider2D charTouchGround = Physics2D.OverlapBox(groundChecker.position, jumpTouch, 0, groundLayer);
+
+        if (charTouchGround != null)
+        {
+            if (charTouchGround.gameObject.tag == "Ground" && Input.GetKeyDown(KeyCode.Space))
+            {
+                charBody.velocity = new Vector2(charBody.velocity.x, jumpPower);
+            }
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireCube(groundChecker.position, jumpTouch);
     }
 
     // Changes Character Sprite Reflection on Movement
