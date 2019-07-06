@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 613564805}
   - component: {fileID: 613564804}
   - component: {fileID: 613564803}
+  - component: {fileID: 613564806}
   m_Layer: 0
   m_Name: Ground Plane
   m_TagString: Untagged
@@ -249,7 +250,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03268051, y: 10.445441}
+  m_Offset: {x: 0, y: 10.41843}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -260,7 +261,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 70.355354, y: 5.144297}
+  m_Size: {x: 70.29, y: 5.45314}
   m_EdgeRadius: 0
 --- !u!483693784 &613564804
 TilemapRenderer:
@@ -3608,6 +3609,26 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!68 &613564806
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613564801}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 1348ed391e1c4470ab0109c506cab898, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 35.151573, y: 37.298836}
+  - {x: 35.09284, y: 7.6735497}
+  - {x: -35.2037, y: 7.6755276}
+  - {x: -35.073193, y: 37.455566}
 --- !u!1 &1188101551
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,15 +3742,15 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
+  m_UseAutoMass: 1
   m_Mass: 9.39444
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &1188101556
 CapsuleCollider2D:
@@ -3759,7 +3780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e13f94e646c9e478aad1662204d1527a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 10
+  runSpeed: 20
 --- !u!1 &1358437588
 GameObject:
   m_ObjectHideFlags: 0
