@@ -39,6 +39,7 @@ public class PlayerControl : MonoBehaviour
         moveInput = Input.GetAxis("Horizontal") * runSpeed;
 
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
+        anim.SetFloat("VelocityY", charBody.velocity.y);
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
 
@@ -47,7 +48,6 @@ public class PlayerControl : MonoBehaviour
             if (charBody.velocity.y > 0)
             {
                 charBody.velocity = new Vector2(charBody.velocity.x, (jumpPower * jumpBoost) + jumpPower);
-                print("Double Jumped");
                 doubleJumped = true;
             }
         }
