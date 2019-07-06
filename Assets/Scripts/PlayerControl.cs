@@ -5,18 +5,26 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     // Public Variables
-    public float runSpeed;
+    public float characterRunSpeed;
 
     // Private Variables
     private float moveInput;
+    private Rigidbody2D charBody;
 
-    void Start()
+    void Awake()
     {
-
+        charBody = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        
+        Movement();
+    }
+
+    void Movement()
+    {
+        moveInput = Input.GetAxisRaw("Horizontal") * characterRunSpeed;
+
+        charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
     }
 }
