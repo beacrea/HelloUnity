@@ -69,6 +69,11 @@ public class PlayerControl : MonoBehaviour
             if (charTouchGround.gameObject.tag == "Ground" && Input.GetKeyDown(KeyCode.Space))
             {
                 charBody.velocity = new Vector2(charBody.velocity.x, jumpPower);
+                anim.SetBool("Jump", true);
+            }
+            else
+            {
+                anim.SetBool("Jump", false);
             }
         }
     }
