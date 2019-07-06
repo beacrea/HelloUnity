@@ -11,6 +11,7 @@ public class PlayerControl : MonoBehaviour
     private float moveInput;
     private Rigidbody2D charBody;
 
+    // Base Functions
     void Awake()
     {
         charBody = GetComponent<Rigidbody2D>();
@@ -21,6 +22,7 @@ public class PlayerControl : MonoBehaviour
         Movement();
     }
 
+    // Actions
     void Movement()
     {
         moveInput = Input.GetAxisRaw("Horizontal") * characterRunSpeed;
