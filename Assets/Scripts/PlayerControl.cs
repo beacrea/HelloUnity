@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
     // Private Variables
     private float moveInput;
     private Rigidbody2D charBody;
-    private bool facingRight;
+    private bool facingRight = true;
 
     // Base Functions
     void Awake()
