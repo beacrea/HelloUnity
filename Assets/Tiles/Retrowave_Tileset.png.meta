@@ -1,0 +1,1722 @@
+fileFormatVersion: 2
+guid: ee77650806b9d4fd7ab140218eb573a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4256737711239643614
+    second: CloudA_1
+  - first:
+      213: -8136483071023248882
+    second: CloudA_2
+  - first:
+      213: 929985790813423241
+    second: CloudA_3
+  - first:
+      213: 6260210607618095106
+    second: CloudB_1
+  - first:
+      213: 356118542704118083
+    second: CloudB_2
+  - first:
+      213: 8562922084678214889
+    second: CloudB_3
+  - first:
+      213: -7846702795182626435
+    second: CloudB_4
+  - first:
+      213: -4943472100593793737
+    second: CloudC_1
+  - first:
+      213: 27278909920175035
+    second: CloudC_2
+  - first:
+      213: 6171138602443487984
+    second: CloudC_3
+  - first:
+      213: -3841901761272731974
+    second: CloudA_4
+  - first:
+      213: -2563948063917676308
+    second: CloudA_5
+  - first:
+      213: 2052566810471515369
+    second: CloudA_6
+  - first:
+      213: 1840238814663590315
+    second: CloudD_1
+  - first:
+      213: -7157670370037010372
+    second: CloudD_2
+  - first:
+      213: 199739945128559910
+    second: CloudD_3
+  - first:
+      213: -9153687752602588043
+    second: CloudD_4
+  - first:
+      213: 8293188948019832657
+    second: CloudD_5
+  - first:
+      213: -8238330577848070289
+    second: CloudD_6
+  - first:
+      213: -561482849648477208
+    second: CloudD_7
+  - first:
+      213: -172499247755040552
+    second: Rain_1
+  - first:
+      213: -8140093697600284203
+    second: Rain_2
+  - first:
+      213: 3633252413776573961
+    second: Rain_3
+  - first:
+      213: -5767041874534196544
+    second: Stars_Block_1
+  - first:
+      213: 7896196201094648712
+    second: Stars_Block_2
+  - first:
+      213: -8592033188345795946
+    second: Stars_Block_3
+  - first:
+      213: -3540895905995157586
+    second: Stars_Block_4
+  - first:
+      213: 855268396440815644
+    second: Stars_Block_5
+  - first:
+      213: -8405382134014320364
+    second: Stars_Block_6
+  - first:
+      213: -6400132081738383598
+    second: Stars_Block_7
+  - first:
+      213: -4953701967443760855
+    second: Feature_Obelisk_Left
+  - first:
+      213: 7582359302382976365
+    second: Feature_Obelisk_Right
+  - first:
+      213: 3339681186079819330
+    second: Stars_Partial_1
+  - first:
+      213: -1560576407295030495
+    second: Stars_Partial_2
+  - first:
+      213: -6680652399810254611
+    second: Stars_Partial_3
+  - first:
+      213: 5552413049938844045
+    second: Stars_Partial_4
+  - first:
+      213: 6444524015435801186
+    second: Stars_Partial_5
+  - first:
+      213: -952736127671105348
+    second: Stars_Partial_6
+  - first:
+      213: 8738575057781438514
+    second: Stars_Partial_7
+  - first:
+      213: -3040896623863067100
+    second: Sky_Fill
+  - first:
+      213: 5821669228095106308
+    second: Retrowave_Tileset_58
+  - first:
+      213: -2729146376666379321
+    second: Platform_E1_Elbow_TopLeft
+  - first:
+      213: 2029311782412529275
+    second: Platform_E1_Top
+  - first:
+      213: 5371680331669350367
+    second: Platform_E1_Elbow_TopRight
+  - first:
+      213: 4564362850467673293
+    second: Platform_Fill
+  - first:
+      213: 9168595355827381842
+    second: Platform_E1_Side_Right
+  - first:
+      213: -3406368191937324653
+    second: Platform_E1_Side_Left
+  - first:
+      213: -4687234945242022355
+    second: Platform_E0_LeftCap
+  - first:
+      213: -557937221238841488
+    second: Platform_E0_Elbow_TopLeft
+  - first:
+      213: 211168527063405234
+    second: Platform_E0_Fill
+  - first:
+      213: -4951184149497549489
+    second: Platform_E0_Elbow_TopRight
+  - first:
+      213: -7806580215741051749
+    second: Platform_E0_Center
+  - first:
+      213: 6160981766675854811
+    second: Platform_E0_RightCap
+  - first:
+      213: -592644306943864498
+    second: Platform_E1_Elbow_BottomLeft
+  - first:
+      213: 99782890155649632
+    second: Platform_E1_Elbow_BottomRight
+  - first:
+      213: -430988929351942662
+    second: Subterrain_LeftCap
+  - first:
+      213: 1875508664996725455
+    second: Subterrain_Fill_1
+  - first:
+      213: -6483229174020961993
+    second: Subterrain_Fill_2
+  - first:
+      213: -8604563216440160773
+    second: Subterrain_RightCap
+  - first:
+      213: 8126339917633575578
+    second: Platform_E1_Side_Bottom
+  - first:
+      213: 308582560841435947
+    second: Platform_E1_Side_Top
+  - first:
+      213: -4621020985700905846
+    second: Bedrock_LeftCap
+  - first:
+      213: 1319449374024186096
+    second: Bedrock_Fill_1
+  - first:
+      213: 2028976563903131946
+    second: Bedrock_Fill_2
+  - first:
+      213: 8030457534103042822
+    second: Bedrock_Fill_3
+  - first:
+      213: 3730634302612850628
+    second: Bedrock_Fill_4
+  - first:
+      213: -207608886273039533
+    second: Bedrock_Fill_5
+  - first:
+      213: -9019238928584919744
+    second: Bedrock_RightCap
+  - first:
+      213: -2092951785674235252
+    second: Darkness_Fill
+  - first:
+      213: -8835238522146888400
+    second: Feature_Portal_Left
+  - first:
+      213: -7499360466946278235
+    second: Feature_Portal_Right
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CloudA_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc40bbc91814420a9d54b1c537afb28
+      internalID: -4256737711239643614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudA_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2643f347f6864c979f58fb93c45a4de
+      internalID: -8136483071023248882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudA_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a111437ff5c4ce5b4afcf8698a8e37
+      internalID: 929985790813423241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudB_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37583d353ebdd487dad9ea5199f5277f
+      internalID: 6260210607618095106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudB_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b62031bb2c348d6be18b8db7eee1ab
+      internalID: 356118542704118083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudB_3
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f436b0cad56654156878e24306ad64af
+      internalID: 8562922084678214889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudB_4
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff14173c4b63445079fdf20b4ff7b39e
+      internalID: -7846702795182626435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudC_1
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafaca5257d7a4f48b0f5ee568f2acc3
+      internalID: -4943472100593793737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudC_2
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9354026376e7543e99411f2ceca6250a
+      internalID: 27278909920175035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudC_3
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1005
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2436d05f62588463a89740a1082a6426
+      internalID: 6171138602443487984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudA_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa0b72bb6c5e4c248c26a3513e922ac
+      internalID: -3841901761272731974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudA_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10a97fd190f34e77b8b2423ee95985a
+      internalID: -2563948063917676308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudA_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e28711810d4a32bf05283a822d4f0
+      internalID: 2052566810471515369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019998835b347400fa83a018acc36dbf
+      internalID: 1840238814663590315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f48bf4871274f769314c1cb08978ae
+      internalID: -7157670370037010372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_3
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce28fa850744a4a2ab0da6754c5e8fce
+      internalID: 199739945128559910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_4
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b01e174748a540d6866a688f395632c
+      internalID: -9153687752602588043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_5
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cc5a540935949979cc0471ce40260e
+      internalID: 8293188948019832657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_6
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919b67b3af394204ae66c9bec097b33
+      internalID: -8238330577848070289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudD_7
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 905
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173dedec3c2de4856872a8b250502ab3
+      internalID: -561482849648477208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 805
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97617caadef1e44618f5a0a6191c0372
+      internalID: -172499247755040552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d2594f730b74e73a06d0af11e86514
+      internalID: -8140093697600284203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916ab2fdce6464c8e912a26c59649f22
+      internalID: 3633252413776573961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129be6c5b22bd4a78903f47fa472f55e
+      internalID: -5767041874534196544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd28ea4ac5be94963b753ee8a464d5a0
+      internalID: 7896196201094648712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd37102dcf784a28b9da710679fa434
+      internalID: -8592033188345795946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a7d0809830946599aaaeb5ecd1941e
+      internalID: -3540895905995157586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5b3627bd0044268b9254383b96442
+      internalID: 855268396440815644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_6
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c922dd7e6af4f4db8ad44725d11008ca
+      internalID: -8405382134014320364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Block_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 705
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbb2e97fa7c64021846c65a4b5a24f6
+      internalID: -6400132081738383598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0dcdfa342b14e71a2a107194242d5f
+      internalID: 3339681186079819330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ce16cf01bf54857abacf1f4f0f82cf
+      internalID: -1560576407295030495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2015aac5507a249c9be8fe5c727e1574
+      internalID: -6680652399810254611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be46870b86b204018ae26b189e690d32
+      internalID: 5552413049938844045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0eb2fc4412d451fadf5febda0815bf
+      internalID: 6444524015435801186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_6
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c35d5ddc4a54600b6ce86699c39a23
+      internalID: -952736127671105348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars_Partial_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 605
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42fdc23465dd4628aa43c47a44eab79
+      internalID: 8738575057781438514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sky_Fill
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 505
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405a594a8c9b2440889b25a7224c802a
+      internalID: -3040896623863067100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Elbow_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 405
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d363c087523834008b241a6dcb2229b0
+      internalID: -2729146376666379321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Top
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 405
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1ce2f3ea22f48a6bc30eae8fd4a0aa
+      internalID: 2029311782412529275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Elbow_TopRight
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 405
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bff2d84667d48e8a097e1874d9e186
+      internalID: 5371680331669350367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_Fill
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 405
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349f37eafcf924510bd38ce77eed211c
+      internalID: 4564362850467673293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Side_Right
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 405
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12bebca8aa7f4d2e845e508d661dc83
+      internalID: 9168595355827381842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Side_Left
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 405
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c20f8896a194441974c5e5fe2f5a83
+      internalID: -3406368191937324653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E0_LeftCap
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e7ea3e3a31494c9134289b48ffb6f
+      internalID: -4687234945242022355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E0_Elbow_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c2721254f7461585bcc0325032b30
+      internalID: -557937221238841488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E0_Fill
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ffc7ecd09ed4a4a99245915ccc8877
+      internalID: 211168527063405234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E0_Elbow_TopRight
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc30642034b44b0aefbc78e3e6c2b2
+      internalID: -4951184149497549489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E0_Center
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091518a455fd44e7ab522340f5d46fd
+      internalID: -7806580215741051749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E0_RightCap
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c863fc1ec1747f38bc38e1ff10d98a
+      internalID: 6160981766675854811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Elbow_BottomLeft
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabb2c4f0c49a436685d311dcfd3055d
+      internalID: -592644306943864498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Elbow_BottomRight
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 305
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22a71f59005f4b7fb34388b0721e2cb
+      internalID: 99782890155649632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterrain_LeftCap
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 205
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4422da26020d438193d0d01e8e71545
+      internalID: -430988929351942662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterrain_Fill_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 205
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af22f99a1faa34073945765e9ce679f7
+      internalID: 1875508664996725455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterrain_Fill_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 205
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388fc62aa89f54352b7adc3f86e69c85
+      internalID: -6483229174020961993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterrain_RightCap
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 205
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583409252e2249f18ed9993eadc535b
+      internalID: -8604563216440160773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Side_Bottom
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 205
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f3cced1431c4c42941f78ab6672608
+      internalID: 8126339917633575578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Side_Top
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 205
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db186225ffffe48838572b574d9e58ee
+      internalID: 308582560841435947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_LeftCap
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e22cdfa2c442418066dcbe4c9314f
+      internalID: -4621020985700905846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_Fill_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7ed030c002a416086ee295c5d23c73
+      internalID: 1319449374024186096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_Fill_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f37b5e58ebb645c1b08a6ad4a8d1ff3
+      internalID: 2028976563903131946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_Fill_3
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f9556ad944040e298d709ab040de05
+      internalID: 8030457534103042822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_Fill_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e52950ad71c4de3aa947551cce054e
+      internalID: 3730634302612850628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_Fill_5
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c2ddbc16db4ddaac42fcba350493f
+      internalID: -207608886273039533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedrock_RightCap
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 105
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59f847641a9a4c4e8ad82cbd36063e9
+      internalID: -9019238928584919744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness_Fill
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 5
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81c00e61648410c834e1f9ea6be5c0
+      internalID: -2092951785674235252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f2df94dc195424d8e9c1ba4bfc1dacb6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
