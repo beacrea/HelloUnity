@@ -5,9 +5,8 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
     // Public Variables
-    public float runSpeed, jumpPower;
-    [Range(0, 1)]
-    public float jumpBoost;
+    public float runSpeed, jumpPower, jumpBoost, playerVelocityY;
+    public bool extraJump;
     public Vector3 jumpTouch;
     public Transform groundChecker;
     public LayerMask groundLayer;
@@ -16,7 +15,6 @@ public class PlayerControl : MonoBehaviour
     private float moveInput;
     private Rigidbody2D charBody;
     private bool facingRight = true;
-    private bool doubleJumped;
     private Animator anim;
 
     // Base Functions
@@ -24,13 +22,13 @@ public class PlayerControl : MonoBehaviour
     {
         charBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        doubleJumped = false;
     }
 
     void Update()
     {
         Movement();
         groundDetectJump();
+        playerVelocityY = charBody.velocity.y;
     }
 
     // Defines Player Movement
@@ -43,41 +41,49 @@ public class PlayerControl : MonoBehaviour
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) && doubleJumped == false)
-        {
-            if (charBody.velocity.y > 0)
-            {
-                charBody.velocity = new Vector2(charBody.velocity.x, (jumpPower * jumpBoost) + jumpPower);
-                doubleJumped = true;
-            }
-        }
-
         if (moveInput > 0 && !facingRight || moveInput < 0 && facingRight)
         {
             CharacterFlip();
         }
     }
 
-    // Check Jump
+    // Jump Actions
     void groundDetectJump()
     {
         Collider2D charTouchGround = Physics2D.OverlapBox(groundChecker.position, jumpTouch, 0, groundLayer);
 
         if (charTouchGround != null)
         {
-            doubleJumped = false;
-            if (charTouchGround.gameObject.tag == "Ground" && Input.GetKeyDown(KeyCode.Space))
+            extraJump = false;
+
+            if (Input.GetButton("Jump") && charTouchGround.gameObject.tag == "Ground")
             {
-                charBody.velocity = new Vector2(charBody.velocity.x, jumpPower);
-                anim.SetBool("Jump", true);
+                charBody.velocity = new Vector2(charBody.velocity.x, 0);
+                charBody.AddForce(new Vector2(0, jumpPower));
+                extraJump = true;
             }
+
             else
             {
                 anim.SetBool("Jump", false);
             }
         }
+        if (charTouchGround == null) {
+            doubleJump();
+        }
     }
 
+    void doubleJump()
+    {
+        if (extraJump == true && Input.GetButtonDown("Jump"))
+        {
+            charBody.velocity = new Vector2(charBody.velocity.x, 0);
+            charBody.AddForce(new Vector2(0, jumpBoost));
+            extraJump = false;
+        }
+    }
+
+    // Adds Visual Hitbox for Floor
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.black;
