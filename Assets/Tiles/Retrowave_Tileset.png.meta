@@ -215,6 +215,12 @@ TextureImporter:
   - first:
       213: -7499360466946278235
     second: Feature_Portal_Right
+  - first:
+      213: -7794492641371629371
+    second: Platform_E1_Bend_TopRight
+  - first:
+      213: 2545194644176190689
+    second: Platform_E1_Bend_TopLeft
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1700,6 +1706,48 @@ TextureImporter:
       bones: []
       spriteID: 4a81c00e61648410c834e1f9ea6be5c0
       internalID: -2092951785674235252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Bend_TopRight
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 505
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd32423cde5474fa58c60cc362bdea2b
+      internalID: -7794492641371629371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_E1_Bend_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 505
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430c9e27881564f9aa3cc9dbe6ace50c
+      internalID: 2545194644176190689
       vertices: []
       indices: 
       edges: []
