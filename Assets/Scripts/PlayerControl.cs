@@ -7,9 +7,9 @@ public class PlayerControl : MonoBehaviour
     // Public Variables
     public float runSpeed, jumpPower, jumpBoost, playerVelocityY;
     public bool extraJump;
-    public Vector3 jumpTouch;
-    public Transform groundChecker;
-    public LayerMask groundLayer;
+    public Vector3 jumpTouch, itemTouch;
+    public Transform groundChecker, itemChecker;
+    public LayerMask groundLayer, terminalLayer;
 
     // Private Variables
     private float moveInput;
@@ -28,6 +28,7 @@ public class PlayerControl : MonoBehaviour
     {
         Movement();
         groundDetectJump();
+        interactTerminal();
         playerVelocityY = charBody.velocity.y;
     }
 
@@ -47,7 +48,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    // Jump Actions
+    // Jump Action
     void groundDetectJump()
     {
         Collider2D charTouchGround = Physics2D.OverlapBox(groundChecker.position, jumpTouch, 0, groundLayer);
@@ -73,6 +74,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    // Double Jump Action
     void doubleJump()
     {
         if (extraJump == true && Input.GetButtonDown("Jump"))
@@ -83,10 +85,26 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    // Interact with Terminal Item
+    void interactTerminal()
+    {
+        Collider2D charTouchItem = Physics2D.OverlapBox(itemChecker.position, itemTouch, 0, terminalLayer);
+
+
+        if (charTouchItem != null)
+        {
+            if (Input.GetButton("Fire1") && charTouchItem.gameObject.tag == "Terminal")
+            {
+                print("Item Clicked");
+            }
+        }
+    }
+
     // Adds Visual Hitbox for Floor
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.black;
+        Gizmos.DrawWireCube(itemChecker.position, itemTouch);
         Gizmos.DrawWireCube(groundChecker.position, jumpTouch);
     }
 
