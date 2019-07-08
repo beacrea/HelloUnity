@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
     // Public Variables
-    public float runSpeed, jumpPower, jumpBoost, playerVelocityY;
+    public float runSpeed, jumpPower, jumpBoost, maxJumpVelocity, playerVelocityY;
     public bool extraJump;
     public Vector3 jumpTouch, itemTouch;
     public Transform groundChecker, itemChecker;
     public LayerMask groundLayer, terminalLayer;
+    public Text welcomeMessage;
 
     // Private Variables
     private float moveInput;
@@ -22,6 +24,8 @@ public class PlayerControl : MonoBehaviour
     {
         charBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        welcomeMessage.text = "Hello Unity";
     }
 
     void Update()
@@ -30,6 +34,7 @@ public class PlayerControl : MonoBehaviour
         groundDetectJump();
         interactTerminal();
         playerVelocityY = charBody.velocity.y;
+
     }
 
     // Defines Player Movement
@@ -41,6 +46,7 @@ public class PlayerControl : MonoBehaviour
         anim.SetFloat("VelocityY", charBody.velocity.y);
 
         charBody.velocity = new Vector2(moveInput, charBody.velocity.y);
+        charBody.velocity = Vector3.ClampMagnitude(charBody.velocity, maxJumpVelocity);
 
         if (moveInput > 0 && !facingRight || moveInput < 0 && facingRight)
         {
@@ -59,7 +65,7 @@ public class PlayerControl : MonoBehaviour
 
             if (Input.GetButton("Jump") && charTouchGround.gameObject.tag == "Ground")
             {
-                charBody.velocity = new Vector2(charBody.velocity.x, 0);
+                charBody.velocity = new Vector2(0, 0);
                 charBody.AddForce(new Vector2(0, jumpPower));
                 extraJump = true;
             }
@@ -96,6 +102,7 @@ public class PlayerControl : MonoBehaviour
             if (Input.GetButton("Fire1") && charTouchItem.gameObject.tag == "Terminal")
             {
                 print("Item Clicked");
+                welcomeMessage.text = "Sup?";
             }
         }
     }
